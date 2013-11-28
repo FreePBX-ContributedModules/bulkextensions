@@ -42,4 +42,4 @@
 		*0.1*	First release
 	</changelog>
 	<md5sum>c147925da2ba875db0dd47a7d9ff05b1</md5sum>
-</module>
+<supported><version>2.10</version></supported></module>

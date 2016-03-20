@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-22 11:28-0400\n"
-"PO-Revision-Date: 2015-10-10 14:16+0200\n"
+"PO-Revision-Date: 2016-03-19 20:00+0200\n"
 "Last-Translator: Media <mousavi.media@gmail.com>\n"
-"Language-Team: Persian <http://weblate.freepbx.org/projects/freepbx/bulkextensions/fa/>\n"
+"Language-Team: Persian "
+"<http://weblate.freepbx.org/projects/freepbx/bulkextensions/fa/>\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.2-dev\n"
+"X-Generator: Weblate 2.4\n"
 
 #: page.bulkextensions.php:1326
 msgid " The account name, extension, and Voicemail password will automatically be inserted after the opening."
@@ -95,6 +96,8 @@ msgstr "اگر آدرس پیش فرضی اختصاص داده شده باشد, �
 #: page.bulkextensions.php:1273
 msgid "If an Override Address is specified, all notification emails will be sent to the Override Address only. Type \"noemail\" (without the quotes) as the Override Address to stop notification emails from being sent."
 msgstr ""
+"اگر آدرسی مجدد مشخص شود تمامی ایمیلها به آدرس جدید ارسال میشوند.برای جلوگیری "
+"از این اتفاق عبارت \"noemail\" را تایپ کنید."
 
 #: page.bulkextensions.php:1247
 msgid "Load File"
@@ -120,14 +123,17 @@ msgstr "نادیده گرفتن آدرس："
 #, php-format
 msgid "Start by downloading the %s Template CSV file %s (right-click > save as) or clicking the Export Extensions button."
 msgstr ""
+"شروع با دانلود %s قالب CSV فایل %s(کلیک راست>ذخیره با) و یا کلیک به روی دکمه "
+"خروجی داخلیها."
 
 #: page.bulkextensions.php:1339
 msgid "The Email Closing may be specified. If any text is entered, it will be inserted at the end of the email."
-msgstr ""
+msgstr "ایمیل کامل شده .اگر متنی تایپ شود به آخر ایمیل اضافه میشود."
 
 #: page.bulkextensions.php:1286
 msgid "The Email From header may be specified. If left blank, the system default will be used."
 msgstr ""
+"به عنوان سر صفحه استفاده میشود.اگر خالی بگذارید،پیشفرض سیستم استفاده میشود."
 
 #: page.bulkextensions.php:1325
 msgid "The Email Opening may be specified. If left blank, the default opening, \"Login information for your Voicemail account is as follows:\", will be used."

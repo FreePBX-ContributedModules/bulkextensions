@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-22 11:28-0400\n"
-"PO-Revision-Date: 2016-03-19 20:00+0200\n"
+"PO-Revision-Date: 2016-04-02 20:10+0200\n"
 "Last-Translator: Media <mousavi.media@gmail.com>\n"
 "Language-Team: Persian "
 "<http://weblate.freepbx.org/projects/freepbx/bulkextensions/fa/>\n"
@@ -138,26 +138,34 @@ msgstr ""
 #: page.bulkextensions.php:1325
 msgid "The Email Opening may be specified. If left blank, the default opening, \"Login information for your Voicemail account is as follows:\", will be used."
 msgstr ""
+"مقدمه ای برای ایمیل مشخص کنید. اگر خالی بگذارید، مقدمه پیشفرض، \"اطلاعات "
+"حساب ایمیل صوتی شما به شرح زیر است:\"، استفاده میشود."
 
 #: page.bulkextensions.php:1299
 msgid "The Email Reply-To header may be specified. If left blank, the system default will be used."
-msgstr ""
+msgstr "تایین سربرگ پاسخ ایمیل.اگر خالی باشد، پیشفرض سیستمی استفاده میشود."
 
 #: page.bulkextensions.php:1312
 msgid "The Email Subject may be specified. If left blank, the default subject, \"Voicemail Account Activated\", will be used."
 msgstr ""
+"عنوان ایمیل را تایین کنید.اگر خالی باشد، عنوان پیشفرض، \"حساب ایمیل صوتی "
+"فعال شد\"، استفاده میشود."
 
 #: page.bulkextensions.php:1352
 msgid "The table below explains each column in the CSV file. You can change the column order of the CSV file as you like, however, the column names must be preserved."
 msgstr ""
+"جدول زیر هر ستون را در فایل CSV توضیح میدهد.شما میتوانید با نظر خود ترتیب "
+"ستون ها را در فایل CSV تغییر دهید، یادآوری، نام هر ستون نباید تغییر کند."
 
 #: page.bulkextensions.php:1225
 msgid "This module is depreciated in favor of Bulk Handler. Please use that instead. The two modules are not compatible!"
 msgstr ""
+"این ماژول برای ارسال های دسته جمعی مناسب نیست. لطفا از ماژول دیگر استفاده "
+"کنید. این دو ماژول با هم سازگار نیستند!"
 
 #: page.bulkextensions.php:1231
 msgid "This module is only supported when FreePBX is in <b>extensions</b> mode"
-msgstr ""
+msgstr "این ماژول تنها وقتی که FreePBX در حالت  <b>داخلی ها</b> است کار میکند"
 
 #: page.bulkextensions.php:983
 msgid "Voicemail Account Activated"
@@ -169,12 +177,12 @@ msgstr "پسورد پست صوتی ： "
 
 #: page.bulkextensions.php:1230
 msgid "You are running FreePBX in <b>deviceanduser</b> mode"
-msgstr ""
+msgstr "شما FreePBX را در حالت <b>کاربر و وسیله</b> راه اندازی کرده اید"
 
 #: bulkextensions.i18n.php:6 bulkextensions.i18n.php:12
 msgid "Applications"
-msgstr ""
+msgstr "درخواست ها"
 
 #: bulkextensions.i18n.php:8
 msgid "Bulk Extensions uses CSV files to import and export extensions."
-msgstr ""
+msgstr "داخلی های انبوه از فایل CSV برای ورود و خروج داخلی ها استفاده میکنند."

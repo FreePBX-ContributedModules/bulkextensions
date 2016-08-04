@@ -10,11 +10,11 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-22 11:28-0400\n"
-"PO-Revision-Date: 2016-04-02 20:10+0200\n"
-"Last-Translator: Media <mousavi.media@gmail.com>\n"
-"Language-Team: Persian "
-"<http://weblate.freepbx.org/projects/freepbx/bulkextensions/fa/>\n"
-"Language: fa\n"
+"PO-Revision-Date: 2016-08-04 15:12+0200\n"
+"Last-Translator: psdk <hyavari26@gmail.com>\n"
+"Language-Team: Persian (Iran) "
+"<http://weblate.freepbx.org/projects/freepbx/bulkextensions/fa_IR/>\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,15 +23,17 @@ msgstr ""
 
 #: page.bulkextensions.php:1326
 msgid " The account name, extension, and Voicemail password will automatically be inserted after the opening."
-msgstr " نام حساب, توسعه, پسورد پست صوتی پس از بازشدن اتوماتیک وارد میشوند."
+msgstr ""
+" نام حساب کاربری, داخلی, رمز عبور صندوق صوتی پس از بازشدن، به صورت خودکار "
+"وارد می شوند."
 
 #: page.bulkextensions.php:1254
 msgid " The settings below can be used to control the content and destination of the notification emails."
-msgstr " متن و مقصد ایمیل های اطلاع رسانی در تنظیمات زیر کنترل میشوند."
+msgstr " محتوا و مقصد ایمیل های اطلاع رسانی از طریق تنظیمات زیر کنترل می شوند."
 
 #: page.bulkextensions.php:1005
 msgid "Account Name: "
-msgstr "نام حساب： "
+msgstr "نام حساب کاربری： "
 
 #: page.bulkextensions.php:1228
 msgid "Bulk Extensions"
@@ -39,19 +41,24 @@ msgstr "مجموعه داخلی ها"
 
 #: page.bulkextensions.php:1351
 msgid "Bulk Extensions CSV File Columns"
-msgstr "ستون فایل CSV مجموعه داخلی ها"
+msgstr "ستون های فایل CSV مجموعه داخلی ها"
 
 #: page.bulkextensions.php:1241
 msgid "Bulk extension changes can take a long time to complete. It can take 30-60 seconds to add 100 extensions on a small system. However, on a system with 2000 extensions it can take about 5 minutes to add 100 new extensions."
-msgstr "تکمیل تغییرات مجموعه داخلی کمی زمان میبرد.در یک سیستم کوچک برای افزودن ۱۰۰ داخلی ۳۰-۶۰ ثانیه زمان لازم است. و در سیستمی با ۲۰۰۰ داخلی برای افزودن ۱۰۰ داخلی حدود ۵ دقیقه طول میکشد."
+msgstr ""
+"تکمیل تغییرات مجموعه داخلی کمی زمان بر است. در یک سیستم کوچک برای افزودن ۱۰۰ "
+"داخلی ۳۰-۶۰ ثانیه زمان لازم است. و در سیستمی با ۲۰۰۰ داخلی برای افزودن ۱۰۰ "
+"داخلی حدود ۵ دقیقه زمان نیاز است."
 
 #: page.bulkextensions.php:1253
 msgid "By default, a notification email will be sent to the Voicemail email address set for each account added."
-msgstr "به صورت پیش فرض, ایمیل اطلاع رسانی به آدرس پست صوتی هر کاربر ارسال میشود."
+msgstr ""
+"به صورت پیش فرض، ایمیل اطلاع رسانی به آدرس ایمیل مشخص شده در تنظیمات صندوق "
+"صوتی هر کاربر ارسال می شود."
 
 #: page.bulkextensions.php:1246
 msgid "CSV File to Load"
-msgstr "فایل CSV برای اجرا"
+msgstr "فایل CSV جهت بارگذاری"
 
 #: page.bulkextensions.php:1260
 msgid "Default Address:"
@@ -59,7 +66,7 @@ msgstr "آدرس پیش فرض："
 
 #: page.bulkextensions.php:1337
 msgid "Email Closing:"
-msgstr "پایان ایمیل："
+msgstr "خاتمه ایمیل："
 
 #: page.bulkextensions.php:1284
 msgid "Email From:"
@@ -67,7 +74,7 @@ msgstr "ایمیل از："
 
 #: page.bulkextensions.php:1251
 msgid "Email Notification for New Accounts"
-msgstr "ایمیل اطلاع رسانی برای حساب جدید"
+msgstr "ایمیل اطلاع رسانی برای حساب های کاربری جدید"
 
 #: page.bulkextensions.php:1323
 msgid "Email Opening:"
@@ -83,7 +90,7 @@ msgstr "عنوان ایمیل ："
 
 #: page.bulkextensions.php:1245
 msgid "Export Extensions"
-msgstr "خروج داخلی ها"
+msgstr "خروجی از داخلی ها"
 
 #: page.bulkextensions.php:1006
 msgid "Extension: "
@@ -91,98 +98,107 @@ msgstr "داخلی： "
 
 #: page.bulkextensions.php:1261
 msgid "If a Default Address is specified, notification emails for new accounts without a Voicemail email address will be sent to the Default Address."
-msgstr "اگر آدرس پیش فرضی اختصاص داده شده باشد, اگر ایمیل پست صوتی نداشته باشد, ایمیل  اطلاع رسانی به آدرس پیش فرض ارسال میشود."
+msgstr ""
+"اگر آدرس پیش فرضی اختصاص یافته باشد، اگر آدرس ایمیل در صندوق صوتی مشخص نشده "
+"باشد، ایمیل اطلاع رسانی به آدرس پیش فرض ارسال می شود."
 
 #: page.bulkextensions.php:1273
 msgid "If an Override Address is specified, all notification emails will be sent to the Override Address only. Type \"noemail\" (without the quotes) as the Override Address to stop notification emails from being sent."
 msgstr ""
-"اگر آدرسی مجدد مشخص شود تمامی ایمیلها به آدرس جدید ارسال میشوند.برای جلوگیری "
-"از این اتفاق عبارت \"noemail\" را تایپ کنید."
+"اگر آدرس دیگری مشخص شود، تمامی ایمیل ها فقط به آدرس جدید ارسال می شوند. برای "
+"جلوگیری از این اتفاق عبارت \"noemail\" را درج کنید."
 
 #: page.bulkextensions.php:1247
 msgid "Load File"
-msgstr "لود فایل"
+msgstr "بارگذاری فایل"
 
 #: page.bulkextensions.php:1001
 msgid "Login information for your Voicemail account is as follows:"
-msgstr "اطلاعات ورودی پست صوتی به شرح زیر است："
+msgstr "اطلاعات حساب کاربردی صندوق صوتی شما به شرح زیر است："
 
 #: page.bulkextensions.php:1235
 msgid "Manage Extensions in bulk using CSV files."
-msgstr "مدیریت داخلی ها در مجموعه از فایل CSV استفاده میشود."
+msgstr "مدیریت داخلی ها با استفاده از فایل های CSV."
 
 #: page.bulkextensions.php:1239
 msgid "Modify the CSV file to add, edit, or delete Extensions as desired. Then load the CSV file. After the CSV file is processed, the action taken for each row will be displayed."
-msgstr "برای افزودن, ویرایش یا حذف داخلی,فایل CSV را ویرایش کنید. سپس فایل را اجرا کنید. پس از اجرا فایل, عملیاتی که در هر ردیف صورت گرفته نمایش داده میشود."
+msgstr ""
+"برای افزودن، ویرایش یا حذف داخلی های مورد نظر، فایل CSV را ویرایش کنید. سپس "
+"فایل را بارگذاری نمایید. پس از اجرا، عملیاتی که در هر ردیف صورت گرفته نمایش "
+"داده می شود."
 
 #: page.bulkextensions.php:1272
 msgid "Override Address:"
-msgstr "نادیده گرفتن آدرس："
+msgstr "آدرس بازنویسی："
 
 #: page.bulkextensions.php:1237
 #, php-format
 msgid "Start by downloading the %s Template CSV file %s (right-click > save as) or clicking the Export Extensions button."
 msgstr ""
 "شروع با دانلود %s قالب CSV فایل %s(کلیک راست>ذخیره با) و یا کلیک به روی دکمه "
-"خروجی داخلیها."
+"خروجی گرفتن از داخلی ها."
 
 #: page.bulkextensions.php:1339
 msgid "The Email Closing may be specified. If any text is entered, it will be inserted at the end of the email."
-msgstr "ایمیل کامل شده .اگر متنی تایپ شود به آخر ایمیل اضافه میشود."
+msgstr ""
+"امکان تعیین خاتمه ایمیل. اگر متنی وارد شود، این متن به انتهای ایمیل اضافه می "
+"شود."
 
 #: page.bulkextensions.php:1286
 msgid "The Email From header may be specified. If left blank, the system default will be used."
-msgstr ""
-"به عنوان سر صفحه استفاده میشود.اگر خالی بگذارید،پیشفرض سیستم استفاده میشود."
+msgstr "تعیین ارسال کننده ایمیل.اگر خالی بگذارید، پیش فرض سیستم استفاده می شود."
 
 #: page.bulkextensions.php:1325
 msgid "The Email Opening may be specified. If left blank, the default opening, \"Login information for your Voicemail account is as follows:\", will be used."
 msgstr ""
-"مقدمه ای برای ایمیل مشخص کنید. اگر خالی بگذارید، مقدمه پیشفرض، \"اطلاعات "
-"حساب ایمیل صوتی شما به شرح زیر است:\"، استفاده میشود."
+"تعیین مقدمه ای برای ایمیل. اگر خالی بگذارید، مقدمه پیش فرض، \"اطلاعات حساب "
+"کاربری صندوق صوتی شما به شرح زیر است:\"، استفاده می شود."
 
 #: page.bulkextensions.php:1299
 msgid "The Email Reply-To header may be specified. If left blank, the system default will be used."
-msgstr "تایین سربرگ پاسخ ایمیل.اگر خالی باشد، پیشفرض سیستمی استفاده میشود."
+msgstr ""
+"تعیین آدرس پاسخ-به برای ایمیل.اگر خالی باشد، پیش فرض سیستم استفاده می شود."
 
 #: page.bulkextensions.php:1312
 msgid "The Email Subject may be specified. If left blank, the default subject, \"Voicemail Account Activated\", will be used."
 msgstr ""
-"عنوان ایمیل را تایین کنید.اگر خالی باشد، عنوان پیشفرض، \"حساب ایمیل صوتی "
-"فعال شد\"، استفاده میشود."
+"تعیین عنوان یا موضوع ایمیل. اگر خالی باشد، عنوان پیش فرض، \"حساب کاربری "
+"صندوق صوتی فعال شد\"، استفاده می شود."
 
 #: page.bulkextensions.php:1352
 msgid "The table below explains each column in the CSV file. You can change the column order of the CSV file as you like, however, the column names must be preserved."
 msgstr ""
-"جدول زیر هر ستون را در فایل CSV توضیح میدهد.شما میتوانید با نظر خود ترتیب "
-"ستون ها را در فایل CSV تغییر دهید، یادآوری، نام هر ستون نباید تغییر کند."
+"جدول زیر ستون های موجود در فایل CSV را شرح می دهد. شما می توانید به دلخواه "
+"ترتیب ستون ها را در فایل CSV تغییر دهید، یادآوری، نام هر ستون نباید تغییر "
+"کند."
 
 #: page.bulkextensions.php:1225
 msgid "This module is depreciated in favor of Bulk Handler. Please use that instead. The two modules are not compatible!"
 msgstr ""
-"این ماژول برای ارسال های دسته جمعی مناسب نیست. لطفا از ماژول دیگر استفاده "
-"کنید. این دو ماژول با هم سازگار نیستند!"
+"این ماژول برای ورود دسته جمعی، دیگر مورد استفاده قرار نمی گیرد. لطفا به جای "
+"آن از ماژول Bulk Handler استفاده کنید. این دو ماژول با هم سازگار نیستند!"
 
 #: page.bulkextensions.php:1231
 msgid "This module is only supported when FreePBX is in <b>extensions</b> mode"
-msgstr "این ماژول تنها وقتی که FreePBX در حالت  <b>داخلی ها</b> است کار میکند"
+msgstr "این ماژول تنها وقتی که FreePBX در حالت  <b>داخلی ها</b> است کار می کند"
 
 #: page.bulkextensions.php:983
 msgid "Voicemail Account Activated"
-msgstr "حساب پست صوتی فعال شده است"
+msgstr "حساب کاربری صندوق صوتی فعال شده است"
 
 #: page.bulkextensions.php:1007
 msgid "Voicemail Password: "
-msgstr "پسورد پست صوتی ： "
+msgstr "رمز عبور صندوق صوتی ： "
 
 #: page.bulkextensions.php:1230
 msgid "You are running FreePBX in <b>deviceanduser</b> mode"
-msgstr "شما FreePBX را در حالت <b>کاربر و وسیله</b> راه اندازی کرده اید"
+msgstr "شما FreePBX را در حالت <b>کاربر و دستگاه</b> اجرا کرده اید"
 
 #: bulkextensions.i18n.php:6 bulkextensions.i18n.php:12
 msgid "Applications"
-msgstr "درخواست ها"
+msgstr "برنامه های کاربردی"
 
 #: bulkextensions.i18n.php:8
 msgid "Bulk Extensions uses CSV files to import and export extensions."
-msgstr "داخلی های انبوه از فایل CSV برای ورود و خروج داخلی ها استفاده میکنند."
+msgstr ""
+"این ماژول از فایل CSV برای وارد کردن و یا خروج گرفتن داخلی ها استفاده می کند."

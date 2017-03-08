@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-15 16:09-0800\n"
-"PO-Revision-Date: 2017-03-07 10:08+0200\n"
+"PO-Revision-Date: 2017-03-08 05:59+0200\n"
 "Last-Translator: Nicolas <freepbx@riendeau.org>\n"
 "Language-Team: French "
 "<http://weblate.freepbx.org/projects/fpbxcn/bulkextensions/fr_FR/>\n"
@@ -48,7 +48,7 @@ msgstr "Applications"
 #: bulkextensions.i18n.php:4 bulkextensions.i18n.php:10
 #: page.bulkextensions.php:1233
 msgid "Bulk Extensions"
-msgstr ""
+msgstr "Chargement par lot des postes"
 
 #: page.bulkextensions.php:1356
 msgid "Bulk Extensions CSV File Columns"
